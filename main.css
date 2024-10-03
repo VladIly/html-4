@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.hobby-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+}
+.box{
+    background-color: #e7e7e7;
+    padding: 20px;
+    width: 26%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px black;
+
+}
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+}
+.info-box {
+    word-wrap: break-word;
+    background-color: #e7e7e7;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px;
+
+}
+.info-box h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.info-box p {
+    font-size: 1em;
+    color: #555;
+}
+.main{
+    background-color: white;
+    text-align: center;
+}
+.aboutMe{
+
+    background-color: white;
+    text-align: center; 
+}
+.hobby{
+    background-color: white;
+    text-align: center;
+}
+.aniGirl {
+    width: 50%; 
+    height: auto; 
+    max-width: 400px; 
+    border-radius: 200px; 
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.5); 
+}
+.miniLogo{
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+.immortal{
+    max-width: 70%;
+    width: 400px;
+    height: auto;
+    border-radius: 100px;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 50px;
+    justify-content: center;
+}
+
+a{
+    position: relative;
+    cursor: pointer;
+    color: #000000;
+    font-size: 28px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+    
+}
+a::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: white;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+a:hover::after{
+    scale: 1 1;
+}
+.back{
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 2px; 
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 1;
+}
